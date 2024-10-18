@@ -1,11 +1,11 @@
 ---
-apiVersion : v1
+apiVersion: v1
 kind: pod
-metadata :
-name: my-pod
+metadata:
+  name: my-pod
 spec:
-  containers :
-    - name : mani-container
-      image : nginx
+  containers:
+    - name: mani-container
+      image: nginx
       ports:
-      -containerPort: 80  
+      - containerPort: 80  
